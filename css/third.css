@@ -1,0 +1,26 @@
+@charset "utf-8";
+.section-3 .left {
+  float: left;
+}
+.section-3-row {
+  padding-top: 2rem;
+}
+.section-3 #main {
+  width: 5rem;
+  height: 4rem;
+}
+.section-3 .right {
+  float: left;
+  width: 4rem;
+  height: 5rem;
+}
+.section-3 .right p {
+  text-shadow: 0 0.01rem 0.03rem rgba(0, 0, 0, 0.1);
+  line-height: 1.2;
+  margin: 0 auto 0.14rem;
+  color: black;
+  width: 90%;
+  max-width: 4rem;
+  font-size: 0.18rem;
+  text-align: center;
+}

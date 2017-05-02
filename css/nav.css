@@ -1,0 +1,121 @@
+@charset "utf-8";
+.my_nav {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+}
+.my_nav .navbar-brand {
+  color: #777;
+}
+.my_nav .navbar-brand:focus,
+.my_nav .navbar-brand:hover {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.my_nav .navbar-text {
+  color: #777;
+}
+.my_nav .navbar-nav > li > a {
+  color: #cccccc;
+  padding-top: 0.18/100rem;
+  height: 0.6/100rem;
+  font-size: 0.17/100rem;
+}
+.my_nav .navbar-nav > li > a:focus,
+.my_nav .navbar-nav > li > a:hover {
+  color: white;
+  background-color: transparent;
+}
+.my_nav .navbar-nav > .disabled > a,
+.my_nav .navbar-nav > .disabled > a:focus,
+.my_nav .navbar-nav > .disabled > a:hover {
+  color: #ccc;
+  background-color: transparent;
+}
+.my_nav .navbar-toggle {
+  border-color: #ddd;
+}
+.my_nav .navbar-toggle:focus,
+.my_nav .navbar-toggle:hover {
+  background-color: #ddd;
+}
+.my_nav .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.my_nav .navbar-collapse,
+.my_nav .navbar-form {
+  border-color: #e7e7e7;
+}
+.my_nav .navbar-nav > .open > a,
+.my_nav .navbar-nav > .open > a:focus,
+.my_nav .navbar-nav > .open > a:hover {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .my_nav .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .my_nav .navbar-nav .open .dropdown-menu > li > a:focus,
+  .my_nav .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #333;
+    background-color: transparent;
+  }
+  .my_nav .navbar-nav .open .dropdown-menu > .active > a,
+  .my_nav .navbar-nav .open .dropdown-menu > .active > a:focus,
+  .my_nav .navbar-nav .open .dropdown-menu > .active > a:hover {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .my_nav .navbar-nav .open .dropdown-menu > .disabled > a,
+  .my_nav .navbar-nav .open .dropdown-menu > .disabled > a:focus,
+  .my_nav .navbar-nav .open .dropdown-menu > .disabled > a:hover {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.my_nav .navbar-link {
+  color: #777;
+}
+.my_nav .navbar-link:hover {
+  color: #333;
+}
+.my_nav .btn-link {
+  color: #777;
+}
+.my_nav .btn-link:focus,
+.my_nav .btn-link:hover {
+  color: #333;
+}
+.my_nav .btn-link[disabled]:focus,
+.my_nav .btn-link[disabled]:hover,
+fieldset[disabled] .my_nav .btn-link:focus,
+fieldset[disabled] .my_nav .btn-link:hover {
+  color: #ccc;
+}
+.section-1 {
+  overflow: hidden;
+}
+.section-1 .basic {
+  width: 6/100rem;
+  height: 3/100rem;
+  margin: 200/100rem auto;
+}
+.section-1 .basic .left {
+  float: left;
+  margin-right: 1/100rem;
+}
+.section-1 .basic .left {
+  float: left;
+}
+.section-1 .basic h2 {
+  line-height: 1.16/100rem;
+  font-size: 0.42/100rem;
+  font-weight: 700;
+}

@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+@deviceWidthList: 320px, 360px, 375px, 384px, 400px, 414px, 424px, 480px, 540px, 600px, 640px, 720px, 750px;
+@len: length(@deviceWidthList);
+@psdWidth: 750;
+@baseFontSize: 100;
+
+.adapter(@index) when (@index <= @len) {
+  @media (min-width: extract(@deviceWidthList,@index)) {
+    html {
+      font-size: 100/750* extract(@deviceWidthList,@index);
+    }
+  }
+  //自调用
+  .adapter(@index+1);
+}
+
+.adapter(1);
+
+
+@import "index";
+
+@import "nav";
+
+@import "seconed";
+
+@import "third";
+
+@import "four1";
